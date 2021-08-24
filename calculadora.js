@@ -1,7 +1,7 @@
-function sumar (num1, num2, num3) {
-    return num1 + num2 + num3
+function sumar (num1, num2) {
+    return num1 + num2 
 }
-console.log (sumar(2, 6, 10));
+console.log (sumar(2, 6,));
 
 function restar (num1, num2) {
     return num1 - num2
@@ -29,7 +29,7 @@ function cuadradoDeUnNumero (num1) {
 console.log(cuadradoDeUnNumero(4,5));
 
 function promedioDeTresNumeros(num1, num2, num3) {
-    return dividir (sumar(num1, num2, num3), 3)
+    return dividir(sumar(sumar(num1, num2), num3), 3)
 }
 console.log(promedioDeTresNumeros(2,4,6));
 
